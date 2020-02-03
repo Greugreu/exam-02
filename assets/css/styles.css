@@ -1,4 +1,6 @@
 @import 'reset.css';
+
+/** CSS fractionné dans d'autres fichiers pour la lisibilité  **/
 @import 'burger.css';
 @import 'mobile.css';
 
@@ -50,18 +52,18 @@
     font-size: 0.3em;
 }
 
-.location {
+.location { /** ensemble de la barre **/
     position: absolute;
     margin-top: -12%;
     margin-left: 30%;
     padding: 10px;
 }
 
-#location {
+#location { /** formulaire **/
     background-color: #666666;
-    padding: 10px;
-    display: inline-block;
-
+    padding: 20px;
+    display: inline;
+    opacity: 0.8;
 }
 
 #select {
@@ -75,9 +77,12 @@
 }
 
 .location .button {
-    background-color: darkgreen;
+    background-color: #3db850;
     padding: 20px;
-    display: inline-block;
+    margin: 0 auto;
+    display: inline;
+    opacity: 0.8;
+    color: #fff;
 
 }
 
@@ -131,11 +136,12 @@ h3 {
   ***
   ***/
 
-footer {
+.footer {
     text-align: center;
     padding: 10px;
+    margin-left: 20%;
 }
-footer img {
+.footer img {
     max-width: 200px;
     float: left;
     width: 45%;
@@ -145,7 +151,7 @@ footer img {
 .text {
     width: 45%;
     display: inline-block;
-    background-color: cyan;
     text-align: left;
+    margin-left: -10%;
 }
 

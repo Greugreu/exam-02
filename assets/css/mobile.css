@@ -24,4 +24,8 @@
     .section p {
         display: none;
     }
+
+    .wrap2 {
+        margin-top: 50%;
+    }
 }
