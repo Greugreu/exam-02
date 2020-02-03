@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tesla Shop</title>
     <link rel="stylesheet" href="assets/css/flexslider.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -21,54 +22,134 @@
                 </li>
             </ul>
         </div>
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+        <div class="menu">
+            <ul>
+                <a href="#"><li>Louer une voiture</li></a>
+                <a href="#"><li>Louer un utilitaire</li></a>
+                <a href="#"><li>Réserver un chauffeur</li></a>
+                <a href="#"><li>Découvrez nos agences</li></a>
+                <a href="#"><li>Mon Compte</li></a>
+                <a href="#"><li>Contact</li></a>
+            </ul>
+        </div>
+        <div class="bienv">
+            <h1>Bienvenue à bord</h1>
+            <p>Location de voiture 24h/24 et 7j/7</p>
+        </div>
+        <div class="location">
+            <form action="#" id="location">
+                <select name="select" id="select">
+                    <option value="01">Adresse 1</option>
+                    <option value="02">Adresse 2</option>
+                    <option value="03">Adresse 3</option>
+                </select>
+                <input type="date" placeholder="Début de location">
+                <input type="date" placeholder="Fin de location">
+            </form>
+            <div class="button">Valider ma recherche</div>
+        </div>
     </header>
-    <main>
-        <section class="flexslider slider1">
-            <ul class="slides">
-                <li>
-                    <img src="img/vehicule1.png" />
-                </li>
-                <li>
-                    <img src="img/vehicule2.png" />
-                </li>
-            </ul>
-        </section>
-        <section class="flexslider slider2">
-            <ul class="slides">
-                <li>
-                    <img src="img/vehicule3.png" />
-                </li>
-                <li>
-                    <img src="img/vehicule4.png" />
-                </li>
-            </ul>
-        </section>
-        <section class="flexslider slider3">
-            <ul class="slides">
-                <li>
-                    <img src="img/vehicule1.png" />
-                </li>
-                <li>
-                    <img src="img/vehicule3.png" />
-                </li>
-            </ul>
-        </section>
-        <section class="flexslider slider4">
-            <ul class="slides">
-                <li>
-                    <img src="img/vehicule2.png" />
-                </li>
-                <li>
-                    <img src="img/vehicule4.png" />
-                </li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <script src="node_modules/jquery/dist/jquery.js"></script>
-        <script src="assets/js/jquery.flexslider-min.js"></script>
-        <script src="assets/js/main.js"></script>
-    </footer>
+    <div class="wrap2">
+        <main>
+            <h2 class="resutlats">7 résultats</h2>
+            <form action="#" class="prix">
+                <select name="prix" id="prix">
+                    <option value="croissant">Prix croissant</option>
+                    <option value="decroissant">Prix decroissant</option>
+                </select>
+            </form>
+            <div class="clear"></div>
+            <section class="section section1">
+                <div class="flexslider slider">
+                    <ul class="slides slider1">
+                        <li>
+                            <img src="img/vehicule1.png" />
+                        </li>
+                        <li>
+                            <img src="img/vehicule2.png" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="desc desc1">
+                    <h3>Peugeot 208</h3>
+                    <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0.5/km supplémentaire).</p>
+                    <p>999 € - Agence de Paris</p>
+                    <button class="btn btn-success active">Réserver et Payer</button>
+                </div>
+            </section>
+            <section class="section section2">
+                <div class="flexslider slider">
+                    <ul class="slides slider2">
+                        <li>
+                            <img src="img/vehicule3.png" />
+                        </li>
+                        <li>
+                            <img src="img/vehicule4.png" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="desc desc2">
+                    <h3>Ford Focus</h3>
+                    <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0.5/km supplémentaire).</p>
+                    <p>999 €</p>
+                    <button class="btn btn-success active">Réserver et Payer</button>
+                </div>
+            </section>
+            <section class="section section3">
+                <div class="flexslider slider">
+                    <ul class="slides slider3">
+                        <li>
+                            <img src="img/vehicule1.png" />
+                        </li>
+                        <li>
+                            <img src="img/vehicule3.png" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="desc desc3">
+                    <h3>Audi A1</h3>
+                    <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0.55/km supplémentaire).</p>
+                    <p>1100 € - Agence de Paris</p>
+                    <button class="btn btn-success active">Réserver et Payer</button>
+                </div>
+            </section>
+            <section class="section section4">
+                <div class="flexslider slider">
+                    <ul class="slides slider4">
+                        <li>
+                            <img src="img/vehicule2.png" />
+                        </li>
+                        <li>
+                            <img src="img/vehicule4.png" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="desc desc4">
+                    <h3>Opel Mokka</h3>
+                    <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0.4/km supplémentaire)</p>
+                    <p>1150 € - Agence de Paris</p>
+                    <button class="btn btn-success active">Réserver et Payer</button>
+                </div>
+            </section>
+            <div class="clear"></div>
+        </main>
+        <footer>
+            <img class="fooimg" src="img/agence.jpg" alt="">
+            <div class="text">
+                <p>Notre Agence de Paris</p>
+                <p>300 boulevard de vaugirard, 75015, Paris</p>
+                <p>Ouvert 7j/7 de 09h à 13h et de 14h à 20h</p>
+                <p>01 49 78 21 33</p>
+                <a href="mailto:michel@michel.com">contact@vtc.com</a>
+            </div>
+            <script src="node_modules/jquery/dist/jquery.js"></script>
+            <script src="assets/js/jquery.flexslider-min.js"></script>
+            <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+            <script src="assets/js/main.js"></script>
+        </footer>
+    </div>
 </div>
 </body>
 </html>

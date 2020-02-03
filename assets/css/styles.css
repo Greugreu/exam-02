@@ -1,1 +1,135 @@
 @import 'reset.css';
+@import "burger.css";
+
+/* FLEXSLIDER */
+.flexslider .slides img {
+    width: 100%;
+    display: block;
+}
+
+.flexslider.slider {
+    max-width: 300px;
+    width: 45%;
+    display: block;
+    float: left;
+}
+
+/* WRAPPERS */
+
+.wrap {
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Verdana', 'Arial', sans-serif;
+}
+
+.wrap2 {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.bienv {
+    position: absolute;
+    color: #fff;
+    font-size: 3.5em;
+    margin-top: -35%;
+    margin-left: 40%;
+}
+
+.bienv p {
+    font-size: 0.3em;
+}
+
+.location {
+    position: absolute;
+    margin-top: -12%;
+    margin-left: 30%;
+    padding: 10px;
+}
+
+#location {
+    background-color: #666666;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+#select {
+    padding: 10px;
+    margin-right: 50px;
+}
+
+#location input {
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.location .button {
+    background-color: darkgreen;
+    padding: 20px;
+    display: inline-block;
+
+}
+
+.resutlats {
+    float: left;
+    display: inline-block;
+}
+
+.prix {
+    float: right;
+    margin: 10px 0 10px 0;
+    display: inline-block;
+}
+
+/* BODY */
+
+.section {
+    width: 100%;
+    border-bottom: #666666;
+    display: inline-block;
+    padding: 10px ;
+    border-bottom: 1px solid rgba(28,110,164,0.13);
+}
+
+.desc {
+    float: right;
+    width: 40%;
+    margin-left: 5%;
+    display: block;
+}
+
+h3 {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+
+.desc p {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 10px;
+}
+footer img {
+    max-width: 200px;
+    float: left;
+    width: 45%;
+    display: inline-block;
+}
+
+.text {
+    width: 45%;
+    display: inline-block;
+    background-color: cyan;
+}
+
