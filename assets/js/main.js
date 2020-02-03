@@ -32,4 +32,6 @@ $( document ).ready(function() {
 		});
 	});
 
+	jQuery(".bienv").fitText().fitText(0.7);
+
 });
