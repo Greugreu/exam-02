@@ -11,29 +11,36 @@
 </head>
 <body>
 <div class="wrap">
+    <!--  SLIDER HEADER  -->
     <header>
         <div class="flexslider header">
             <ul class="slides">
                 <li>
-                    <img src="img/background1.jpg" />
+                    <img src="img/background1.jpg" alt="#" />
                 </li>
                 <li>
-                    <img src="img/background2.jpg" />
+                    <img src="img/background2.jpg" alt="#" />
                 </li>
             </ul>
         </div>
+
+        <!--  NAV BURGER  -->
+
         <button class="hamburger">&#9776;</button>
         <button class="cross">&#735;</button>
         <div class="menu">
             <ul>
-                <a href="#"><li>Louer une voiture</li></a>
-                <a href="#"><li>Louer un utilitaire</li></a>
-                <a href="#"><li>Réserver un chauffeur</li></a>
-                <a href="#"><li>Découvrez nos agences</li></a>
-                <a href="#"><li>Mon Compte</li></a>
-                <a href="#"><li>Contact</li></a>
+                <li><a href="#">Louer une voiture</a></li>
+                <li><a href="#">Louer un utilitaire</a></li>
+                <li><a href="#">Réserver un chauffeur</a></li>
+                <li><a href="#">Découvrez nos agences</a></li>
+                <li><a href="#">Mon Compte</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </div>
+
+        <!--  HEADER  -->
+
         <div class="bienv">
             <h1>Bienvenue à bord</h1>
             <p>Location de voiture 24h/24 et 7j/7</p>
@@ -45,12 +52,15 @@
                     <option value="02">Adresse 2</option>
                     <option value="03">Adresse 3</option>
                 </select>
-                <input type="date" placeholder="Début de location">
-                <input type="date" placeholder="Fin de location">
+                <input type="date" >
+                <input type="date" >
             </form>
             <div class="button">Valider ma recherche</div>
         </div>
     </header>
+
+    <!--  RECHERCHE  -->
+
     <div class="wrap2">
         <main>
             <h2 class="resutlats">7 résultats</h2>
@@ -60,15 +70,18 @@
                     <option value="decroissant">Prix decroissant</option>
                 </select>
             </form>
+
+            <!--  LISTING  -->
+
             <div class="clear"></div>
             <section class="section section1">
                 <div class="flexslider slider">
                     <ul class="slides slider1">
                         <li>
-                            <img src="img/vehicule1.png" />
+                            <img src="img/vehicule1.png" alt="#" />
                         </li>
                         <li>
-                            <img src="img/vehicule2.png" />
+                            <img src="img/vehicule2.png" alt="#" />
                         </li>
                     </ul>
                 </div>
@@ -83,10 +96,10 @@
                 <div class="flexslider slider">
                     <ul class="slides slider2">
                         <li>
-                            <img src="img/vehicule3.png" />
+                            <img src="img/vehicule3.png" alt="#" />
                         </li>
                         <li>
-                            <img src="img/vehicule4.png" />
+                            <img src="img/vehicule4.png" alt="#" />
                         </li>
                     </ul>
                 </div>
@@ -101,10 +114,10 @@
                 <div class="flexslider slider">
                     <ul class="slides slider3">
                         <li>
-                            <img src="img/vehicule1.png" />
+                            <img src="img/vehicule1.png" alt="#" />
                         </li>
                         <li>
-                            <img src="img/vehicule3.png" />
+                            <img src="img/vehicule3.png" alt="#" />
                         </li>
                     </ul>
                 </div>
@@ -119,10 +132,10 @@
                 <div class="flexslider slider">
                     <ul class="slides slider4">
                         <li>
-                            <img src="img/vehicule2.png" />
+                            <img src="img/vehicule2.png" alt="#" />
                         </li>
                         <li>
-                            <img src="img/vehicule4.png" />
+                            <img src="img/vehicule4.png" alt="#" />
                         </li>
                     </ul>
                 </div>
@@ -133,7 +146,84 @@
                     <button class="btn btn-success active">Réserver et Payer</button>
                 </div>
             </section>
-            <div class="clear"></div>
+            <div id="reveal">
+                <section class="section section1">
+                    <div class="flexslider slider">
+                        <ul class="slides slider1">
+                            <li>
+                                <img src="img/vehicule1.png" alt="#" />
+                            </li>
+                            <li>
+                                <img src="img/vehicule2.png" alt="#" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="desc desc1">
+                        <h3>Peugeot 208</h3>
+                        <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0.5/km supplémentaire).</p>
+                        <p>999 € - Agence de Paris</p>
+                        <button class="btn btn-success active">Réserver et Payer</button>
+                    </div>
+                </section>
+                <section class="section section2">
+                    <div class="flexslider slider">
+                        <ul class="slides slider2">
+                            <li>
+                                <img src="img/vehicule3.png" alt="#" />
+                            </li>
+                            <li>
+                                <img src="img/vehicule4.png" alt="#" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="desc desc2">
+                        <h3>Ford Focus</h3>
+                        <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0.5/km supplémentaire).</p>
+                        <p>999 €</p>
+                        <button class="btn btn-success active">Réserver et Payer</button>
+                    </div>
+                </section>
+                <section class="section section3">
+                    <div class="flexslider slider">
+                        <ul class="slides slider3">
+                            <li>
+                                <img src="img/vehicule1.png" alt="#" />
+                            </li>
+                            <li>
+                                <img src="img/vehicule3.png" alt="#"  />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="desc desc3">
+                        <h3>Audi A1</h3>
+                        <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0.55/km supplémentaire).</p>
+                        <p>1100 € - Agence de Paris</p>
+                        <button class="btn btn-success active">Réserver et Payer</button>
+                    </div>
+                </section>
+                <section class="section section4">
+                    <div class="flexslider slider">
+                        <ul class="slides slider4">
+                            <li>
+                                <img src="img/vehicule2.png" alt="#" />
+                            </li>
+                            <li>
+                                <img src="img/vehicule4.png" alt="#" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="desc desc4">
+                        <h3>Opel Mokka</h3>
+                        <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0.4/km supplémentaire)</p>
+                        <p>1150 € - Agence de Paris</p>
+                        <button class="btn btn-success active">Réserver et Payer</button>
+                    </div>
+                </section>
+            </div>
+
+                <!--  END LISTING  -->
+
+                <div class="clear"></div>
         </main>
         <footer>
             <img class="fooimg" src="img/agence.jpg" alt="">
@@ -145,9 +235,12 @@
                 <a href="mailto:michel@michel.com">contact@vtc.com</a>
             </div>
             <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+            <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+                    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+                    crossorigin="anonymous"></script>
             <script src="assets/js/jquery.flexslider-min.js"></script>
             <script src="assets/js/jquery.fittext.js"></script>
-            <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+            <script src="https://unpkg.com/scrollreveal"></script>
             <script src="assets/js/main.js"></script>
         </footer>
     </div>

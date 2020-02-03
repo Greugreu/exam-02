@@ -2,6 +2,7 @@
 $( document ).ready(function() {
 	$(".flexslider")
 		.flexslider({
+			slideshowSpeed: 15000,
 			animation: "slide",
 			smoothHeight: true,
 			controlNav: false,
@@ -33,5 +34,7 @@ $( document ).ready(function() {
 	});
 
 	jQuery(".bienv").fitText().fitText(0.7);
+
+	ScrollReveal().reveal('#reveal', { delay: 2000 });
 
 });
